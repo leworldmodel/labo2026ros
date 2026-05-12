@@ -73,7 +73,7 @@ generarmodelo <- function( param )
       "'"
   )
 
-  comando <- paste0( "~/install/proc_kaggle_submit_peque.sh ",
+  comando <- paste0( "~/machina/direct/proc_kaggle_submit_peque.sh ",
       "TRUE ",
       archivo_submit, " ",
       comentario
